@@ -1,0 +1,17 @@
+{
+  "name": "gw2buildbot",
+  "version": "0.0.1",
+  "description": "Interprets gw2 builds and spits out appropriate build template info",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "discord.js": "^12.2.0",
+    "hex64": "^0.4.0"
+  }
+}
